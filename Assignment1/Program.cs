@@ -4,9 +4,13 @@ namespace Assignment1
 {
     class Program
     {
-        static void Main(string[] args)
+        public static int choice;
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("-----Menu options are as follows: -------");
+
         }
     }
 }
+
+
