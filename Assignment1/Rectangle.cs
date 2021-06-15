@@ -6,8 +6,8 @@ namespace Assignment1
 {
     public class Rectangle
     {
-        private int length=0;
-        private int width=0;
+        private int length;
+        private int width;
         public int perimeter;
         public int area;
 

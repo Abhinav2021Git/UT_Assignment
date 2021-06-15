@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "c72BDMq5tPNXco78IaY2CaTEXfxcsmeQoREzlpMlmpmkJICDE+5/5QQLpYoeAhiLyHimKP6QAD1TGKSfvf4hcg==",
+  "dgSpecHash": "MV142LviAyWPTAPteXYJXILQA/N9TzK960lxq0d1xEsxebdhwHWj71tnIZwG56h+q0J3fgN1r4Z1w+JkuXTw9Q==",
   "success": true,
   "projectFilePath": "G:\\Abhinav-Conestoga\\SENG8040 - Software Testing Methodologies_Preethi Arattu\\Assignments\\Assignments_Code\\Assignment1\\Assignment1\\Assignment1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Aniket\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit.console\\3.12.0\\nunit.console.3.12.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit.consolerunner\\3.12.0\\nunit.consolerunner.3.12.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit.extension.nunitprojectloader\\3.6.0\\nunit.extension.nunitprojectloader.3.6.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit.extension.nunitv2driver\\3.8.0\\nunit.extension.nunitv2driver.3.8.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit.extension.nunitv2resultwriter\\3.6.0\\nunit.extension.nunitv2resultwriter.3.6.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit.extension.teamcityeventlistener\\1.0.7\\nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit.extension.vsprojectloader\\3.8.0\\nunit.extension.vsprojectloader.3.8.0.nupkg.sha512",
+    "C:\\Users\\Aniket\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -11,3 +11,11 @@ G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\As
 G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
 G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\nunit.engine.dll
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\nunit.framework.dll
+G:\Abhinav-Conestoga\SENG8040 - Software Testing Methodologies_Preethi Arattu\Assignments\Assignments_Code\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
