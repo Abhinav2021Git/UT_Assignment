@@ -100,8 +100,8 @@ namespace Assignment1
                             else
                             {
                                 Console.WriteLine("That's not a valid menu option i.e. {0}", choice);
-                                
-                            }Console.WriteLine("Please try again and a select a value between 1-7. \n");
+                                Console.WriteLine("Please try again and a select a value between 1-7. \n");
+                            }
                         }
                             else 
                                 Console.WriteLine("The width of a Rectangle can't be less than one\n");

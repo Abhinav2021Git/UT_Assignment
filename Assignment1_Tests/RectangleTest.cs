@@ -31,7 +31,7 @@ namespace Assignment1_Tests
         public void GetWidth()
         {
             int width = 6;      //arrange
-            int result = obj.GetWidth();//act
+            int result = obj.GetWidth();  //act
            // Assert.AreEqual(6, result); //assert
             
             /* We can also perform Assertion like this */
@@ -42,15 +42,15 @@ namespace Assignment1_Tests
         public void SetWidth()
         {
             int newWidth = 7;      //arrange
-            int result = obj.SetWidth(newWidth);//act
+            int result = obj.SetWidth(newWidth); //act
             Assert.AreEqual(7, result); //assert
         }
 
         [Test]
         public void GetPerimeter()
         {
-            obj.SetLength(5);   //arrange
-            obj.SetWidth(6);   //arrange
+            obj.SetLength(5);   //arrange Length 
+            obj.SetWidth(6);   //arrange Width
             int result = obj.GetPerimeter();  //act
             Assert.AreEqual(22, result); //assert
         }
@@ -58,14 +58,12 @@ namespace Assignment1_Tests
         [Test]
         public void GetArea()
         {
-            obj.SetLength(5);   //arrange
-            obj.SetWidth(7);   //arrange       
+            obj.SetLength(5);   //arrange Length
+            obj.SetWidth(7);   //arrange  Width      
             int result = obj.GetArea(); //act
             Assert.AreEqual(35, result); //assert
 
         }
-
-
 
     }
 }
