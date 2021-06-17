@@ -55,7 +55,7 @@ namespace Assignment1
             }
             catch (Exception e)
             {
-                Console.WriteLine("Invalid input exception is captured against \"SetWidth()\"");
+                Console.WriteLine("Invalid input exception is captured under \"SetWidth()\"");
                 Console.WriteLine(e.Message);
                 return this.width;
             }
@@ -69,7 +69,7 @@ namespace Assignment1
             }
             catch (FormatException e)
             {
-                Console.WriteLine("Invalid input exception is captured in GetPerimeter()");
+                Console.WriteLine("Invalid input exception is captured under GetPerimeter()");
                 Console.WriteLine(e.Message);
                 return perimeter;
             }
