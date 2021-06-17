@@ -48,7 +48,7 @@ namespace Assignment1
 
                                     case 2:
                                         Console.WriteLine("The \"Change Rectangle Length\" option is selected by the user");
-                                        Console.WriteLine("Please enter a new Length for the Rectangle:");
+                                        Console.WriteLine("Please enter a new Length of the Rectangle:");
                                         int new_Length = Convert.ToInt32(Console.ReadLine());
                                         int new_Rectangle_Length = r.SetLength(new_Length);
                                         Console.WriteLine("The new Length of a Rectangle is: {0}", new_Rectangle_Length);
@@ -63,7 +63,7 @@ namespace Assignment1
 
                                     case 4:
                                         Console.WriteLine("The \"Change Rectangle Width\" option is selected by the user");
-                                        Console.WriteLine("Please enter a new Width for the Rectangle:");
+                                        Console.WriteLine("Please enter a new Width of the Rectangle:");
                                         int new_width = Convert.ToInt32(Console.ReadLine());
                                         int new_Rectangle_Width = r.SetWidth(new_width);
                                         Console.WriteLine("The new width of a Rectangle is: {0}", new_Rectangle_Width);
@@ -100,8 +100,8 @@ namespace Assignment1
                             else
                             {
                                 Console.WriteLine("That's not a valid menu option i.e. {0}", choice);
-                                Console.WriteLine("Please try again\n");
-                            }
+                                
+                            }Console.WriteLine("Please try again and a select a value between 1-7. \n");
                         }
                             else 
                                 Console.WriteLine("The width of a Rectangle can't be less than one\n");
