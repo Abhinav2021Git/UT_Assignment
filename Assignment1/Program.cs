@@ -29,7 +29,7 @@ namespace Assignment1
                     {
                         Console.WriteLine("Please enter the width of a Rectangle:");
                          user_entered_width = Convert.ToInt32(Console.ReadLine());
-                        if(user_entered_width <1)
+                        if(user_entered_width < 1)
                         {
                           Console.WriteLine("The width of a Rectangle can't be less than one & u have entered {0}\n", user_entered_width);
                         }
@@ -69,11 +69,24 @@ namespace Assignment1
 
                                     case 2:
                                         Console.WriteLine("\"Change Rectangle Length\" option is selected by the user");
-                                        Console.WriteLine("Please enter a new Length of the Rectangle:");
-                                        int new_Length = Convert.ToInt32(Console.ReadLine());
-                                        int new_Rectangle_Length = r.SetLength(new_Length);
-                                        Console.WriteLine("The new Length of a Rectangle is: {0}", new_Rectangle_Length);
-                                        break;
+                                        int new_Length;
+                                        int new_Rectangle_Length;
+                                        do
+                                        {
+                                            Console.WriteLine("Please enter a new Length of the Rectangle:");
+                                             new_Length = Convert.ToInt32(Console.ReadLine());
+                                            if(new_Length < 1)
+                                            {
+                                                Console.WriteLine("The length of a Rectangle can't be less than one & u have entered : {0}\n", new_Length);
+                                            }
+                                        } while (new_Length < 1);
+                                        
+                                        if (new_Length >= 1)
+                                        {
+                                             new_Rectangle_Length = r.SetLength(new_Length);
+                                            Console.WriteLine("The new Length of a Rectangle is: {0}", new_Rectangle_Length);
+                                        }
+                                            break;
 
                                     case 3:
                                         Console.WriteLine("\"Get Rectangle Width\" option is selected by the user");
@@ -84,11 +97,24 @@ namespace Assignment1
 
                                     case 4:
                                         Console.WriteLine("\"Change Rectangle Width\" option is selected by the user");
-                                        Console.WriteLine("Please enter a new Width of the Rectangle:");
-                                        int new_width = Convert.ToInt32(Console.ReadLine());
-                                        int new_Rectangle_Width = r.SetWidth(new_width);
-                                        Console.WriteLine("The new width of a Rectangle is: {0}", new_Rectangle_Width);
-                                        break;
+                                        int new_width;
+                                        int new_Rectangle_Width;
+                                        do
+                                        {
+                                            Console.WriteLine("Please enter a new Width of the Rectangle:");
+                                            new_width = Convert.ToInt32(Console.ReadLine());
+                                            if (new_width < 1)
+                                            {
+                                                Console.WriteLine("The width of a Rectangle can't be less than one & u have entered : {0}\n", new_width);
+                                            }
+                                        } while (new_width < 1);
+
+                                        if (new_width >= 1)
+                                        {
+                                            new_Rectangle_Width = r.SetWidth(new_width);
+                                            Console.WriteLine("The new width of a Rectangle is: {0}", new_Rectangle_Width);
+                                        }
+                                            break;
 
                                     case 5:
                                         Console.WriteLine("\"Get Rectangle Perimeter\" option is selected by the user");
@@ -124,9 +150,7 @@ namespace Assignment1
                                 Console.WriteLine("Please try again and select a valid option between 1-7. \n");
                             }
                         }
-                    }
-                   /* else
-                        Console.WriteLine("The width of a Rectangle can't be less than one\n");*/
+                    }   
                 }
                 else
                     Console.WriteLine("The length of a Rectangle can't be less than one\n");

@@ -32,8 +32,8 @@ namespace Assignment1
             try
             {
                 this.length = length;
-                return this.length;
-            }
+                    return this.length;
+                }    
             catch (Exception e)
             {
                 Console.WriteLine("Invalid input exception is captured against \"SetLength()\"");
